@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(235, 17, 89);
+}
+.container{
+    margin:90px 40px 10px 40px;
+    background-color: white;
+    width: 94%;
+    height: 160vh;
+}
+.header{
+    display: flex;
+    border: black 1px solid;
+}
+#logo{
+    width: 100px;
+}
+#logo_img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 70px;
+}
+#search_bar{
+    margin-left: 100px;
+    width: 540px;
+    transition: margin 1s, height 1s;
+   
+}
+#search{
+    background-color: aliceblue;
+    border: 0.7px;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 500px;
+    height: 25px;
+}
+#search_bar :hover{
+    margin:15px;
+    height: 30px;
+}
+#profile{
+    display: flex;
+    width: 380px;
+    margin-left: 230px
+
+}
+.profile_chat:hover{
+    background-color: aliceblue;
+}
+#chat{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 30px;
+}
+.profile_notification{
+   margin-left: 10px;
+}
+.profile_notification:hover{
+    background-color: aliceblue;
+}
+#notification{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 30px;
+}
+#user{
+    width: 40px;
+    height: 40px;
+    margin-top: 17px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+#user_name{
+    margin: 26px;
+    font-size: 16px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.825);
+    height: 94%;
+    overflow: auto;
+  }
+  li{
+    margin-top: 10px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color:rgb(235, 17, 89);
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:rgb(235, 17, 89);
+    color: white;
+  }
+ .section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+ }
+ .nav{
+    width: 200px;
+    height: 100%;
+
+ }
+ .artical{
+    width: 100%;
+    height: 100%;
+ }
+ #hotel_img{
+    width: 336px;
+ }
+ .artical_image_content{
+    display: flex;
+    width: 100%;
+    height: 54px;
+    background-color:aliceblue;
+ }
+ .hotel_name{
+    width: 700px;
+    margin: 15px;
+ }
+ .location{
+    width: 240px;
+    margin-top: 10px;
+    text-align: end;
+ }
+ #location_link{
+    text-align: end;
+ }
+ .rating{
+    width: 70px;
+    background-color:rgb(235, 17, 89);
+    color: white;
+    text-align: center;
+ }
+ .flexbox{
+    display: flex;
+    width: 100%;
+    height: 60%;
+ }
+ #flexbox1{
+    width: 80%;
+    height: 90%;
+    margin-left: 30px;
+    background-color:aliceblue;
+ }
+ #flexbox1_paragraph{
+    margin: 20px;
+ }
+
+ /* comment section */
+ .comment_section{
+    display: flex;
+ }
+#comment_user{
+    width: 40px;
+    border-radius: 30px;
+}
+.flexbox2{
+    margin-left:40px ;
+}
+ 
+#comment_section1{
+    width: 200px;
+    height: 300px;
+    background-color:aliceblue;
+}
+#comment_section2{
+    width: 200px;
+    height: 300px;
+    background-color: aliceblue;
+}
+.comment_section1_review{
+    display: flex;
+}
